@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivision 3D | Tsinjo Fanate - Conception, 3D & BTP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950">
+
+    <!-- HEADER / NAVBAR -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-slate-950 font-extrabold text-xl shadow-lg shadow-amber-500/20">A</div>
+                <div>
+                    <span class="font-bold text-lg tracking-tight block">ARCHIVISION 3D</span>
+                    <span class="text-xs text-amber-400 font-medium">Tsinjo Fanate</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#services" class="hover:text-amber-400 transition">Services</a>
+                <a href="#portfolio" class="hover:text-amber-400 transition">Réalisations</a>
+                <a href="#simulateur" class="hover:text-amber-400 transition">Simulateur Devis</a>
+                <a href="#outils" class="hover:text-amber-400 transition">Logiciels</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="https://wa.me/261333472437" target="_blank" class="hidden sm:flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2.5 rounded-xl font-semibold text-sm transition shadow-lg shadow-emerald-900/30">
+                    <i class="fab fa-whatsapp text-lg"></i> WhatsApp
+                </a>
+                <a href="#contact" class="bg-amber-500 hover:bg-amber-400 text-slate-950 px-5 py-2.5 rounded-xl font-bold text-sm transition shadow-lg shadow-amber-500/20">
+                    Contactez-moi
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(245,158,11,0.15),rgba(255,255,255,0))]"></div>
+        <div class="max-w-7xl mx-auto px-6 relative">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold uppercase tracking-wider">
+                        <i class="fas fa-drafting-compass"></i> Projeteur & Concepteur BTP
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        Donnez vie à vos projets architecturaux avec <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">précision & réalisme</span>.
+                    </h1>
+                    <p class="text-slate-400 text-lg leading-relaxed">
+                        Modélisation 3D photoréaliste, plans d'exécution précis, calculs de structure et avant-métrés (DQE) adaptés à vos besoins à Madagascar.
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#simulateur" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-8 py-4 rounded-xl transition shadow-xl shadow-amber-500/20 flex items-center gap-2">
+                            Estimer mon projet <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#portfolio" class="bg-slate-900 hover:bg-slate-800 text-white font-semibold px-8 py-4 rounded-xl border border-slate-800 transition">
+                            Voir mes rendus 3D
+                        </a>
+                    </div>
+                    <div class="pt-6 border-t border-slate-900 grid grid-cols-3 gap-6 text-slate-400 text-sm">
+                        <div><strong class="text-white block text-lg font-bold">ArchiCAD</strong> Modélisation & Plans</div>
+                        <div><strong class="text-white block text-lg font-bold">D5 / Lumion</strong> Rendu HD</div>
+                        <div><strong class="text-white block text-lg font-bold">Excel</strong> Avant-Métrés & DQE</div>
+                    </div>
+                </div>
+
+                <!-- CAROUSEL / IMAGE HERO RÉELLE -->
+                <div class="relative">
+                    <div class="absolute -inset-1.5 bg-gradient-to-r from-amber-500 to-amber-700 rounded-3xl blur-xl opacity-30"></div>
+                    <div class="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900">
+                        <img src="2[1].jpg" alt="Rendu 3D Villa R+1 Archivision" class="w-full h-[400px] object-cover">
+                        <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent">
+                            <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Projet Vedette</span>
+                            <h3 class="text-xl font-bold text-white">Villa Contemporaine R+1 (Ampitatafika)</h3>
+                            <p class="text-sm text-slate-300">Conception complète : 3D, plans d'exécution & structure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 bg-slate-900/50 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight">Mes Domaines d'Expertise</h2>
+                <p class="text-slate-400">Une offre complète de l'avant-projet à l'exécution sur chantier.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-14 h-14 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Modélisation 3D & Rendu HD</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Vues extérieures et intérieures photoréalistes pour valoriser vos projets immobiliers et convaincre vos clients.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-14 h-14 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Plans 2D & Exécution</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Plans d'architecture détaillés, coupes techniques, élans et plans de coffrage prêts pour le chantier.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-14 h-14 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Avant-Métrés & DQE</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Calculs rigoureux des quantités (avant-métré) et élaboration du devis estimatif et quantitatif sous Excel (en MGA).</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-amber-500/50 transition group">
+                    <div class="w-14 h-14 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-amber-500 group-hover:text-slate-950 transition">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Calcul de Structure</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Dimensionnement des éléments en béton armé (fondations, poteaux, poutres, dalles) selon les règles de l'art.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO / REALISATIONS -->
+    <section id="portfolio" class="py-24 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <h2 class="text-3xl font-extrabold tracking-tight mb-2">Galerie de Réalisations</h2>
+                    <p class="text-slate-400">Découvrez un aperçu de mes travaux de modélisation et de coupes techniques.</p>
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="filterPortfolio('all')" class="px-4 py-2 rounded-xl bg-amber-500 text-slate-950 font-bold text-sm transition">Tous</button>
+                    <button onclick="filterPortfolio('3d')" class="px-4 py-2 rounded-xl bg-slate-900 text-slate-300 hover:bg-slate-800 text-sm transition">3D Rendu</button>
+                    <button onclick="filterPortfolio('coupe')" class="px-4 py-2 rounded-xl bg-slate-900 text-slate-300 hover:bg-slate-800 text-sm transition">Vues en Coupe</button>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                <!-- Item 1 -->
+                <div class="portfolio-item cat-3d bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="1[1].jpg" alt="Façade Principale Villa" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-amber-400">Rendu 3D HD</div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold">Façade Principale - Villa R+1</h3>
+                        <p class="text-sm text-slate-400">Insertion paysagère et traitement des volumes avec parement en pierre naturelle et bois.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="portfolio-item cat-3d bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="3[1].jpg" alt="Perspective latérale" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-amber-400">Rendu 3D HD</div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold">Perspective Extérieure Latérale</h3>
+                        <p class="text-sm text-slate-400">Étude d'ensoleillement et aménagement extérieur avec clôture et accès véhicules.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="portfolio-item cat-coupe bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="coupe_rdc1[1].jpg" alt="Coupe RDC" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-amber-400">Vue en Coupe 3D</div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold">Aménagement Rez-de-Chaussée</h3>
+                        <p class="text-sm text-slate-400">Disposition intérieure : salon, cuisine ouverte, bureau et liaison avec l'escalier.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="portfolio-item cat-coupe bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="coupe_etage1[1].jpg" alt="Coupe Étage" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-amber-400">Vue en Coupe 3D</div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold">Aménagement Étage / Chambres</h3>
+                        <p class="text-sm text-slate-400">Distribution des chambres, salles d'eau et accès direct à la grande terrasse panoramique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SIMULATEUR DE DEVIS EN ARIARY -->
+    <section id="simulateur" class="py-24 bg-slate-900/50 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight">Simulateur de Devis en Ligne</h2>
+                <p class="text-slate-400">Estimez instantanément le tarif indicatif de votre prestation en Ariary (MGA).</p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 p-8 md:p-12 rounded-3xl shadow-2xl space-y-8">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <label class="block text-sm font-semibold text-slate-300">Type de Prestation</label>
+                        <select id="service-type" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-amber-500">
+                            <option value="30000">Modélisation 3D & Rendu HD (Archi / Ext)</option>
+                            <option value="25000">Plans 2D d'Exécution & Coupes</option>
+                            <option value="40000">Pack Complet (3D + Plans + Avant-Métré DQE)</option>
+                            <option value="35000">Calcul de Structure & Dimensionnement</option>
+                        </select>
+                    </div>
+                    <div class="space-y-4">
+                        <label class="block text-sm font-semibold text-slate-300">Superficie estimée (en m²)</label>
+                        <input type="number" id="superficie" value="120" min="20" max="2000" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-amber-500">
+                    </div>
+                </div>
+
+                <div class="p-6 bg-slate-950 rounded-2xl border border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-6">
+                    <div>
+                        <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider block mb-1">Estimation Indicative</span>
+                        <div class="text-3xl font-extrabold text-amber-400" id="prix-total">3 600 000 MGA</div>
+                    </div>
+                    <button onclick="envoyerDevisWhatsApp()" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-4 rounded-xl transition flex items-center justify-center gap-2 shadow-lg shadow-emerald-900/40">
+                        <i class="fab fa-whatsapp text-xl"></i> Demander ce devis par WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOGICIELS & OUTILS -->
+    <section id="outils" class="py-24 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight">Logiciels Maîtrisés</h2>
+                <p class="text-slate-400">Une maîtrise professionnelle des standards de l'architecture et du génie civil.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-3">
+                    <div class="flex justify-between items-center font-bold"><span>ArchiCAD / SketchUp</span> <span class="text-amber-400">95%</span></div>
+                    <div class="w-full bg-slate-950 h-2 rounded-full overflow-hidden"><div class="bg-amber-500 h-full w-[95%]"></div></div>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-3">
+                    <div class="flex justify-between items-center font-bold"><span>D5 Render / Lumion</span> <span class="text-amber-400">90%</span></div>
+                    <div class="w-full bg-slate-950 h-2 rounded-full overflow-hidden"><div class="bg-amber-500 h-full w-[90%]"></div></div>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-3">
+                    <div class="flex justify-between items-center font-bold"><span>Robot Structural / RDM</span> <span class="text-amber-400">85%</span></div>
+                    <div class="w-full bg-slate-950 h-2 rounded-full overflow-hidden"><div class="bg-amber-500 h-full w-[85%]"></div></div>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-3">
+                    <div class="flex justify-between items-center font-bold"><span>Microsoft Excel (DQE)</span> <span class="text-amber-400">95%</span></div>
+                    <div class="w-full bg-slate-950 h-2 rounded-full overflow-hidden"><div class="bg-amber-500 h-full w-[95%]"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 bg-slate-900/50 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-8">
+            <h2 class="text-3xl font-extrabold tracking-tight">Prêt à collaborer sur votre projet ?</h2>
+            <p class="text-slate-400 max-w-xl mx-auto">Contactez-moi directement par téléphone, WhatsApp ou email pour discuter de vos plans et de votre devis.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://wa.me/261333472437" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-4 rounded-xl transition flex items-center gap-3">
+                    <i class="fab fa-whatsapp text-xl"></i> +261 33 34 724 37
+                </a>
+                <a href="mailto:tsinjofanate@gmail.com" class="bg-slate-900 hover:bg-slate-800 border border-slate-800 text-white font-bold px-8 py-4 rounded-xl transition flex items-center gap-3">
+                    <i class="fas fa-envelope text-xl text-amber-400"></i> tsinjofanate@gmail.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-slate-900 text-center text-sm text-slate-500">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <p>&copy; 2026 Tsinjo Fanate (Archivision 3D). Tous droits réservés.</p>
+            <div class="flex items-center gap-6">
+                <a href="https://www.linkedin.com/in/tsinjo-fanate-735175284/" target="_blank" class="hover:text-amber-400 transition"><i class="fab fa-linkedin text-lg"></i> LinkedIn</a>
+                <a href="https://facebook.com" target="_blank" class="hover:text-amber-400 transition"><i class="fab fa-facebook text-lg"></i> Facebook (archivision 3d)</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT INTERACTIONS -->
+    <script>
+        // Filtrage portfolio
+        function filterPortfolio(category) {
+            const items = document.querySelectorAll('.portfolio-item');
+            items.forEach(item => {
+                if(category === 'all' || item.classList.contains('cat-' + category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Calculateur de devis
+        const serviceSelect = document.getElementById('service-type');
+        const superficieInput = document.getElementById('superficie');
+        const prixTotalDiv = document.getElementById('prix-total');
+
+        function calculerDevis() {
+            const tarifUnit = parseInt(serviceSelect.value);
+            const sup = parseInt(superficieInput.value) || 0;
+            const total = tarifUnit * sup;
+            prixTotalDiv.textContent = total.toLocaleString('fr-FR') + ' MGA';
+        }
+
+        serviceSelect.addEventListener('change', calculerDevis);
+        superficieInput.addEventListener('input', calculerDevis);
+        calculerDevis();
+
+        // WhatsApp Devis sender
+        function envoyerDevisWhatsApp() {
+            const serviceText = serviceSelect.options[serviceSelect.selectedIndex].text;
+            const superficie = superficieInput.value;
+            const prix = prixTotalDiv.textContent;
+            const message = `Bonjour Tsinjo, je souhaite commander la prestation suivante via votre site Archivision 3D :\n\n- Prestation : ${serviceText}\n- Superficie : ${superficie} m²\n- Estimation : ${prix}\n\nMerci de me recontacter !`;
+            const url = `https://wa.me/261333472437?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
